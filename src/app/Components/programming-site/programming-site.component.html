@@ -1,0 +1,34 @@
+<div class="codingBody">
+    <div class="container">
+        <div class="block">
+            <h1 class="title_Coding">Sitio en Construcción</h1>
+            <h2 class="title_Coding2">Mientras tanto, hagamos un pequeño juego creado en JavaScript</h2>
+            <p class="text_game">Piensa en un número de dos cifras, súmalo entre sí y luego réstale el número que te dio al primer número que pensaste.
+                <br> Ejemplo: Piensas: 56. Entonces 5 + 6 = 11; Luego 56-11=45. <br> Debes decrime uno de los dos números, es decir el 4 o el 5, yo podré adivinar el otro no importa cuál me digas.
+            </p>
+        </div>
+    </div>
+    <button (click)="preguntaNumero();" class="button-js">¡JUGUEMOS!</button>
+
+</div>
+<div class="container-fluid" style="background-color: rgba(115, 255, 0, 0.171);">
+    <h2 class="container">Uso exclusivo del Staff</h2>
+    <!-- La idea de mostrar la creación y muestra de listas (más allá de reproducir la funcionalidad, que en términos del trabajo solo tiene ese objetivom, mostrar la funcionadad, en un ambiente real me gustaría poder usar esas herramientas para quien por ejemplo administre la página (sin que sea necesario sepa programar), solo que pueda incluir los productos con sus respectivas categorías sin entrar en el código) -->
+
+
+    <!-- Creación de Categoria -->
+    <ul class="navbar-nav">
+        <li class="nav-item interactiveHover">
+            <a class="nav-link" routerLink="/create-category">Crear Categoría</a>
+        </li>
+    </ul>
+    <!-- Until Here -->
+
+    <!-- Componente para Ver categorías Prueba -->
+    <ul class="navbar-nav">
+        <li class="nav-item interactiveHover">
+            <a class="nav-link" routerLink="/show-categories">Mostrar Categorías</a>
+        </li>
+    </ul>
+    <!-- Until Here -->
+</div>

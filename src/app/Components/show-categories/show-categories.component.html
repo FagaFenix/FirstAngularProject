@@ -1,0 +1,23 @@
+<div class="container-fluid showCategoryBG">
+
+    <div class="container tabla">
+        <table class="table table-dark">
+            <thead>
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Descripción</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let i of allCategories; let indice = index">
+                    <th scope="row">{{indice + 1}}</th>
+                    <td>{{i.Name}}</td>
+                    <td>{{i.Description}} </td>
+
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+</div>

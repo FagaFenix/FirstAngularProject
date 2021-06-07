@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=RocknRoll+One&display=swap');
+.backGround {
+    background-image: url("../../../assets/Multimedia/Img/headbackground2.jpg");
+}
+
+.photoSite {
+    padding-top: 2%;
+}
+
+.Next-prev {
+    margin-top: 22%;
+    margin-bottom: 2%;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+img {
+    width: 34rem!important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+.footerBio img {
+    width: 100%!important;
+}

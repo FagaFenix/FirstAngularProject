@@ -1,0 +1,61 @@
+<div class="container-fluid UserCreatepage">
+    <h1 style="padding-top: 10%;">Bienvenido al portal de suscripción</h1>
+    <form class="container fromCreateUser" [formGroup]="createUserForm" (ngSubmit)="userCreate()">
+        <div class="form-group row">
+
+            <label for="Email" class="col-sm-2 col-form-label">
+                Email
+            </label>
+            <input formControlName="Email" type="email" class="form-control" id="Email">
+
+            <label for="Password" class="col-sm-2 col-form-label">
+                Password
+            </label>
+            <input formControlName="Password" type="password" class="form-control" id="Password">
+
+            <label for="Name" class="col-sm-2 col-form-label">
+                Nombre
+            </label>
+            <input formControlName="Name" type="text" class="form-control" id="Name">
+
+            <label for="Age" class="col-sm-2 col-form-label">
+                Edad
+            </label>
+            <input formControlName="Age" type="number" class="form-control" id="Age">
+
+            <label for="Gender" class="col-sm-2 col-form-label">
+                Sexo
+            </label>
+            <input formControlName="Gender" type="text" class="form-control" id="Gender">
+
+            <!-- <div class="form-group col-sm-12 col-form-label">
+                    <label for="Gender">Sexo</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                  <option> Masculino</option>
+                  <option> Femenino</option>
+                  <option> Prefiero no decirlo</option>
+                  <input formControlName="Gender" type="text" class="form-control" id="Gender">
+                </select>
+                </div> -->
+
+
+            <label for="Type" class="col-sm-2 col-form-label">
+                Tipo de suscripción
+            </label>
+            <input formControlName="Type" type="text" class="form-control" id="Type">
+
+            <!-- <div class="form-group col-sm-12 col-form-label">
+                    <label for="Type">Tipo de Suscripción</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                  <option> Basic (sin costo)</option>
+                  <option> Premium (mensualidad $25000)</option>
+                  <option>Pro VIP (Mensualidad $45000)</option>
+                  <input formControlName="Type" type="text" class="form-control" id="Type">
+                </select>
+                </div> -->
+
+
+        </div>
+        <button type="submit">Enviar</button>
+    </form>
+</div>

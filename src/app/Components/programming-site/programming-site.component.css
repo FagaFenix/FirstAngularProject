@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=RocknRoll+One&display=swap');
+.codingBody {
+    background-image: url("/assets/Multimedia/Img/Site_Coding/Coding_Background2.gif");
+    padding-top: 10%;
+    padding-bottom: 2%;
+}
+
+.title_Coding,
+.title_Coding2,
+.text_game {
+    color: white;
+    font-family: 'DotGothic16', sans-serif;
+}
+
+.title_Coding {
+    font-size: 50px;
+}
+
+.title_Coding2 {
+    font-size: 35px;
+}
+
+.text_game {
+    font-size: 25px;
+}
+
+.button-js {
+    color: rgb(170, 255, 0);
+    border-radius: 10%;
+    padding: 0.6rem;
+    margin: 15px;
+    margin-left: 45%;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 20px;
+}
